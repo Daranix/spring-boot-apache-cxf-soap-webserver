@@ -1,0 +1,10 @@
+cxf:
+  jaxrs:
+    component-scan: true
+    classes-scan-packages: org.apache.cxf.jaxrs.swagger
+keystore:
+  alias: test
+  password: test
+  file: F:\AUsuarios\Daranix\Desktop\manual-trusted-app-encryption\webservice-server\src\main\resources\test.jks
+  type: JKS
+  pkpass: test
